@@ -43,12 +43,12 @@ impl Evaluatable for BinaryExpression {
         let concrete_left = get!(self.left.evaluate(state));
         let concrete_right = get!(self.right.evaluate(state));
 
-        match self.operation {
-            And => Some(concrete_left & concrete_right),
-            Or => Some(concrete_left | concrete_right),
-            LShift => Some(concrete_left << concrete_right),
-            RShift => Some(concrete_left >> concrete_right)
-        }
+        Some(match self.operation {
+            And => concrete_left & concrete_right,
+            Or => concrete_left | concrete_right,
+            LShift => concrete_left << concrete_right,
+            RShift => concrete_left >> concrete_right
+        })
     }
 }
 
