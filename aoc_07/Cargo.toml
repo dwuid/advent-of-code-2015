@@ -1,0 +1,8 @@
+[package]
+name = "aoc_07"
+version = "0.1.0"
+authors = ["dwuid"]
+
+[dependencies]
+nom = "1.0.1"
+topological-sort = "0.0.5"
