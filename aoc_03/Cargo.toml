@@ -1,0 +1,6 @@
+[package]
+name = "aoc_03"
+version = "0.1.0"
+authors = ["dwuid"]
+
+[dependencies]
