@@ -1,0 +1,7 @@
+[package]
+name = "aoc_08"
+version = "0.1.0"
+authors = ["dwuid <dwuid@users.noreply.github.com>"]
+
+[dependencies]
+rustc-serialize = "0.3.16"
