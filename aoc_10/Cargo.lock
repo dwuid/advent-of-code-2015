@@ -1,0 +1,12 @@
+[root]
+name = "aoc_10"
+version = "0.1.0"
+dependencies = [
+ "itertools 0.4.5 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "itertools"
+version = "0.4.5"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
