@@ -1,0 +1,8 @@
+[package]
+name = "aoc_12"
+version = "0.1.0"
+authors = ["dwuid <dwuid@users.noreply.github.com>"]
+
+[dependencies]
+serde_json = "0.6.0"
+
