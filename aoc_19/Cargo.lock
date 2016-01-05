@@ -1,0 +1,12 @@
+[root]
+name = "aoc_19"
+version = "0.1.0"
+dependencies = [
+ "revord 0.0.2 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "revord"
+version = "0.0.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
