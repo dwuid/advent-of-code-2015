@@ -1,0 +1,8 @@
+[package]
+name = "aoc_21"
+version = "0.1.0"
+authors = ["dwuid <dwuid@users.noreply.github.com>"]
+
+[dependencies]
+itertools = "0.4.5"
+
